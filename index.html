@@ -15,16 +15,37 @@
 <body>
     <h1>Que desea comprar?</h1>
 
+    <div>
+        <div class="buscador">
+            <input class="buscador__input" type="text" placeholder="Manzana, pera, banana, etc">
+            <button type="submit" class="buscador__btn">buscar</button>
+        </div>
+        <table class="buscador__tabla">
+            <thead>
+                <tr class="buscador__titulos">
+                    <th>Id</th>
+                    <th>Producto</th>
+                    <th>Cantidad</th>
+                    <th>Precio</th>
+                    <th>Total</th>
+                    <th>Cart</th>
+                </tr>
+            </thead>
+            <tbody class="buscador__resultados">
+            </tbody>
+    </div>
+
     <table>
-        <thead>
+        <thead class="carrito__titulos">
             <tr>
-                <th>Nro. de producto</th>
+                <th>Id</th>
                 <th>Producto</th>
                 <th>Cantidad</th>
                 <th>Precio</th>
+                <th>Total</th>
             </tr>
         </thead>
-        <tbody class="tabla">
+        <tbody class="carrito">
         </tbody>
     </table>
 

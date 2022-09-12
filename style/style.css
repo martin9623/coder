@@ -1,0 +1,30 @@
+.buscador {
+    display: flex;
+    padding: 30px;
+}
+
+.buscador__titulos,
+.carrito__titulos {
+    display: none;
+}
+
+.carrito__empty {
+    display: flex;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn__tabla {
+    padding: 0 15px;
+}
+
+table {
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+.total::before,
+.precio::before {
+    content: "$";
+}
